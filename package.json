@@ -1,0 +1,21 @@
+{
+  "name": "telegrafbot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kirill Moskalevich",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "download": "^8.0.0",
+    "form-data": "^3.0.0",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4",
+    "telegraf": "^3.38.0"
+  }
+}
