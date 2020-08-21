@@ -54,3 +54,4 @@ bot.on('photo', (ctx) => {
 bot.hears('hi', (ctx) => ctx.reply('Hey there'))
 bot.launch()
 console.log('>>> bot launch')
+
